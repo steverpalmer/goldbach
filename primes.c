@@ -7,8 +7,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <malloc.h>
+#include <stdbool.h>
 
-typedef enum {false, true} bool;
+/* typedef enum {false, true} bool; */
 
 const int    max_prime  = 1000000000;
 const int    sieve_size = 15625001;        /* (max_prime >> 6) + 1 */
@@ -190,7 +191,7 @@ int main (int argc, char *argv[])
   process_arguments(argc, argv);
   init_sieve();
   find_primes();
-#if 0
+#if 1
   not_prime(97);
   not_prime(89);
   not_prime(83);
