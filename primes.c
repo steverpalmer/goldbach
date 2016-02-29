@@ -1,15 +1,7 @@
-/******************************************************************************
- * $Author: steve $
- * $Date: 2003/11/29 22:42:11 $
- * $Id: primes.c,v 1.1 2003/11/29 22:42:11 steve Exp $
- ******************************************************************************/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <malloc.h>
 #include <stdbool.h>
-
-/* typedef enum {false, true} bool; */
 
 const int    max_prime  = 1000000000;
 const int    sieve_size = 15625001;        /* (max_prime >> 6) + 1 */
@@ -161,7 +153,6 @@ void find_sums (void)
 /******************************************************************************/
 {
   int i;
-  /*    char buffer[40];*/
   bool more;
   message("find_sums");
   more = true;
@@ -191,7 +182,7 @@ int main (int argc, char *argv[])
   process_arguments(argc, argv);
   init_sieve();
   find_primes();
-#if 1
+#if 0
   not_prime(97);
   not_prime(89);
   not_prime(83);
@@ -204,20 +195,3 @@ int main (int argc, char *argv[])
   message("end");
   exit(0);
 }
-
-
-/******************************************************************************
- * $Log: primes.c,v $
- * Revision 1.1  2003/11/29 22:42:11  steve
- * Created
- *
- * Revision 1.4  2002/03/04 07:17:34  Steve Palmer
- * Possibly fixed a bug
- *
- * Revision 1.3  2002/02/23 18:24:04  Steve Palmer
- * Testing CVS
- *
- * Revision 1.2  2002/02/23 13:03:17  Steve Palmer
- * Added CVS Headers and Footers
- *
- ******************************************************************************/
