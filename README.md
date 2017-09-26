@@ -17,7 +17,7 @@ The program uses the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve
 
 Since then, I've uses the program to test the performance of my computers.  My current computer runs the program in 8.5 seconds.
 
-By-the-way, the conjecture was [verified on 4 April 2012](http://sweet.ua.pt/tos/goldbach.html) up to 4 × 10^18, so rather more than my measly 10^9.
+By-the-way, the conjecture was [verified on 4 April 2012](http://sweet.ua.pt/tos/goldbach.html) up to 4 x 10^18, so rather more than my measly 10^9.
 
 Steve Palmer
 
