@@ -15,7 +15,7 @@ When I read this, I thought that testing the [Goldback Conjecture](https://en.wi
 
 The program uses the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) to find the prime numbers up to 1,000,000,000 (using ~32MB of storage which was a fair amount at the time) and then does the addition of all the primes through a mixture of Shift's and Or's.  I was quite pleased with the result since it was able to get to the result in a matter of minutes.
 
-Since then, I've uses the program to test the performance of my computers.  My current computer runs the program in 8.5 seconds ☺.
+Since then, I've uses the program to test the performance of my computers.  My current computer runs the program in 8.5 seconds.
 
 By-the-way, the conjecture was [verified on 4 April 2012](http://sweet.ua.pt/tos/goldbach.html) up to 4 × 10^18, so rather more than my measly 10^9.
 
