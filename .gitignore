@@ -2,3 +2,5 @@
 /.project
 /primes
 /Release/
+/Debug/
+/.settings/
